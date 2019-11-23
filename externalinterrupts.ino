@@ -1,17 +1,16 @@
-# 1 "d:\\WorkFolder\\Hardware\\aziot\\SDK_Demo\\externalinterrupts.ino"
-# 2 "d:\\WorkFolder\\Hardware\\aziot\\SDK_Demo\\externalinterrupts.ino" 2
-# 3 "d:\\WorkFolder\\Hardware\\aziot\\SDK_Demo\\externalinterrupts.ino" 2
-volatile byte led = 0x0;
-volatile byte interruptOn = 0x1;
+#include "arduino.h"
+#include "oleddisplay.h"
+volatile byte led = LOW;
+volatile byte interruptOn = HIGH;
 
 void setup()
 {
     // Use USER_BUTTON_B to control USER_BUTTON_A
-    attachInterrupt(USER_BUTTON_B, interruptSwitch, 3);
+    attachInterrupt(USER_BUTTON_B, interruptSwitch, FALLING);
     // Use USER_BUTTON_A to control LED_USER
     if (interruptOn)
     {
-        attachInterrupt(USER_BUTTON_A, blink_and_display, 2);
+        attachInterrupt(USER_BUTTON_A, blink_and_display, CHANGE);
     }
     Screen.init();
     char buf[100];
@@ -28,10 +27,10 @@ void loop()
 
 void blink_and_display()
 {
-    Screen.clean();
     led = !led;
     Screen.print("Button A is pressed.");
-    delay(5000);
+    delay(2000);
+    Screen.clean();
 }
 
 void interruptSwitch()
@@ -39,7 +38,7 @@ void interruptSwitch()
     interruptOn = !interruptOn;
     if (interruptOn)
     {
-        attachInterrupt(USER_BUTTON_A, blink_and_display, 2);
+        attachInterrupt(USER_BUTTON_A, blink_and_display, CHANGE);
     }
     else
     {
