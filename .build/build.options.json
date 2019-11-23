@@ -6,6 +6,6 @@
   "hardwareFolders": "C:\\Program Files (x86)\\Arduino\\hardware,C:\\Users\\SJ\\AppData\\Local\\Arduino15\\packages",
   "otherLibrariesFolders": "C:\\Users\\SJ\\Documents\\Arduino\\libraries",
   "runtime.ide.version": "10810",
-  "sketchLocation": "d:\\WorkFolder\\Hardware\\aziot\\SDK_Demo\\externalinterrupts.ino",
+  "sketchLocation": "d:\\WorkFolder\\Hardware\\aziot\\SDK_Demo\\systemrestart.ino",
   "toolsFolders": "C:\\Program Files (x86)\\Arduino\\tools-builder,C:\\Program Files (x86)\\Arduino\\hardware\\tools\\avr,C:\\Users\\SJ\\AppData\\Local\\Arduino15\\packages"
 }

@@ -10,7 +10,7 @@
     "Includepath": "C:\\Users\\SJ\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.3\\variants\\MXChip_AZ3166"
   },
   {
-    "Sourcefile": "d:\\WorkFolder\\Hardware\\aziot\\SDK_Demo\\.build\\sketch\\externalinterrupts.ino.cpp",
+    "Sourcefile": "d:\\WorkFolder\\Hardware\\aziot\\SDK_Demo\\.build\\sketch\\systemrestart.ino.cpp",
     "Include": "",
     "Includepath": null
   }

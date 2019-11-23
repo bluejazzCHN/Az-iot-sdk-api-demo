@@ -1,12 +1,17 @@
-# 1 "d:\\WorkFolder\\Hardware\\aziot\\SDK_Demo\\systemrestart.ino"
-# 2 "d:\\WorkFolder\\Hardware\\aziot\\SDK_Demo\\systemrestart.ino" 2
+#line 1 "d:\\WorkFolder\\Hardware\\aziot\\SDK_Demo\\systemrestart.ino"
+#include "Arduino.h"
 
 int btnAState;
 int btnBState;
 
+#line 6 "d:\\WorkFolder\\Hardware\\aziot\\SDK_Demo\\systemrestart.ino"
+void setup();
+#line 19 "d:\\WorkFolder\\Hardware\\aziot\\SDK_Demo\\systemrestart.ino"
+void loop();
+#line 6 "d:\\WorkFolder\\Hardware\\aziot\\SDK_Demo\\systemrestart.ino"
 void setup() {
-  pinMode(USER_BUTTON_A, 0x1);
-  pinMode(USER_BUTTON_B, 0x1);
+  pinMode(USER_BUTTON_A, INPUT);
+  pinMode(USER_BUTTON_B, INPUT);
 
   btnAState = digitalRead(USER_BUTTON_A);
   btnBState = digitalRead(USER_BUTTON_B);
@@ -21,7 +26,7 @@ void loop() {
   while (1)
   {
     // press button A to reboot
-    if (btnAState == 0x1 && digitalRead(USER_BUTTON_A) == 0x0)
+    if (btnAState == HIGH && digitalRead(USER_BUTTON_A) == LOW)
     {
       Screen.clean();
       Screen.print("Reboot....", true);
@@ -29,7 +34,7 @@ void loop() {
     }
 
     // press button B to sleep 5 seconds, and then restart
-    if (btnBState == 0x1 && digitalRead(USER_BUTTON_B) == 0x0)
+    if (btnBState == HIGH && digitalRead(USER_BUTTON_B) == LOW)
     {
       Screen.clean();
       Screen.print(1, "Sleep 5 seconds and then restart", true);
@@ -39,3 +44,4 @@ void loop() {
 
   delay(100);
 }
+

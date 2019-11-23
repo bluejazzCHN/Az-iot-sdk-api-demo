@@ -1,5 +1,5 @@
-d:\WorkFolder\Hardware\aziot\SDK_Demo\.build\sketch\externalinterrupts.ino.cpp.o: \
- d:\WorkFolder\Hardware\aziot\SDK_Demo\.build\sketch\externalinterrupts.ino.cpp \
+d:\WorkFolder\Hardware\aziot\SDK_Demo\.build\sketch\systemrestart.ino.cpp.o: \
+ d:\WorkFolder\Hardware\aziot\SDK_Demo\.build\sketch\systemrestart.ino.cpp \
  C:\Users\SJ\AppData\Local\Arduino15\packages\AZ3166\hardware\stm32f4\1.6.3\system/mbed_config.h \
  C:\Users\SJ\AppData\Local\Arduino15\packages\AZ3166\hardware\stm32f4\1.6.3\cores\arduino/Arduino.h \
  C:\Users\SJ\AppData\Local\Arduino15\packages\AZ3166\hardware\stm32f4\1.6.3\system/mbed-os/mbed.h \
@@ -244,6 +244,4 @@ d:\WorkFolder\Hardware\aziot\SDK_Demo\.build\sketch\externalinterrupts.ino.cpp.o
  C:\Users\SJ\AppData\Local\Arduino15\packages\AZ3166\hardware\stm32f4\1.6.3\cores\arduino/HardwareSerial.h \
  C:\Users\SJ\AppData\Local\Arduino15\packages\AZ3166\hardware\stm32f4\1.6.3\cores\arduino/BufferedSerial.h \
  C:\Users\SJ\AppData\Local\Arduino15\packages\AZ3166\hardware\stm32f4\1.6.3\cores\arduino/RingBuffer.h \
- C:\Users\SJ\AppData\Local\Arduino15\packages\AZ3166\hardware\stm32f4\1.6.3\cores\arduino/OledDisplay.h \
- C:\Users\SJ\AppData\Local\Arduino15\packages\AZ3166\hardware\stm32f4\1.6.3\cores\arduino/arduino.h \
- C:\Users\SJ\AppData\Local\Arduino15\packages\AZ3166\hardware\stm32f4\1.6.3\cores\arduino/oleddisplay.h
+ C:\Users\SJ\AppData\Local\Arduino15\packages\AZ3166\hardware\stm32f4\1.6.3\cores\arduino/OledDisplay.h

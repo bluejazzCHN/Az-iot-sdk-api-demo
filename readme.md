@@ -7,8 +7,9 @@
 4. [API reference](https://microsoft.github.io/azure-iot-developer-kit/docs/projects/)
 
 ## API Demo
-1. oleddisplay.py -- how to control screan to display text or img
-2. externalinterrupts.ino -- how to use external interrupt to response in realtime 
+1. oleddisplay.ino -- how to control screan to display text or img
+2. externalinterrupts.ino -- how to use external interrupt to response in realtime
+3. systemrestart.ino -- how to use system api to restart device on conditions
 
 ## Privacy Statement
 The [Microsoft Enterprise and Developer Privacy Statement](https://www.microsoft.com/en-us/privacystatement/EnterpriseDev/default.aspx) describes the privacy statement of this software.
