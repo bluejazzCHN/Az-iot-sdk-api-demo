@@ -30,6 +30,7 @@ void loop() {
     {
       Screen.clean();
       Screen.print("Reboot....", true);
+      delay(2000);
       SystemReboot();
     }
 
