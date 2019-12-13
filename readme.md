@@ -10,6 +10,7 @@
 1. oleddisplay.ino -- how to control screan to display text or img
 2. externalinterrupts.ino -- how to use external interrupt to response in realtime
 3. systemrestart.ino -- how to use system api to restart device on conditions
+4. weatherstation.ino -- use internal display and external DHT sensor. program use arduino internal pin 5 mapping to external pin 4 (microbit extend pad). [reference](https://jeremylindsayni.wordpress.com/2017/11/11/using-the-mxchip-az3166-azure-devkit-with-arduino-coding-with-pin-names-instead-of-numbers/) doc/az 3166 map
 
 ## Privacy Statement
 The [Microsoft Enterprise and Developer Privacy Statement](https://www.microsoft.com/en-us/privacystatement/EnterpriseDev/default.aspx) describes the privacy statement of this software.
