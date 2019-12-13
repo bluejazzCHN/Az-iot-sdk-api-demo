@@ -8,10 +8,14 @@
             "includePath": [
                 "${workspaceFolder}",
                 "C:\\Users\\SJ\\AppData\\Local\\Arduino15\\packages\\AZ3166\\tools\\**",
-                "C:\\Users\\SJ\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.3\\**"
+                "C:\\Users\\SJ\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.3\\**",
+                "C:\\Users\\SJ\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.5\\**",
+                "D:\\WorkFolder\\Hardware\\aziot\\SDK_Demo\\include\\**"
             ],
             "forcedInclude": [
-                "C:\\Users\\SJ\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.3\\cores\\arduino\\Arduino.h"
+                "C:\\Users\\SJ\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.3\\cores\\arduino\\Arduino.h",
+                "C:\\Users\\SJ\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.5\\cores\\arduino\\Arduino.h",
+                "D:\\WorkFolder\\Hardware\\aziot\\SDK_Demo\\include\\DHT.h"
             ],
             "intelliSenseMode": "clang-x64",
             "cStandard": "c11",
