@@ -50,7 +50,7 @@ void loop()
     
     float dht_temperature = dht.readTemperature();
     char dht_temp[10];
-    sprintf(dht_temp, "DHT_T: %.0f", dht_temperature);
+    sprintf(dht_temp, "DHT_T: %.1f", dht_temperature);
     Screen.print(3,dht_temp);
 
     delay(5000);
