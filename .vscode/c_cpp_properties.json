@@ -6,16 +6,18 @@
                 "ARDUINO=10800"
             ],
             "includePath": [
+                "C:\\Users\\SJ\\Documents\\Arduino\\libraries\\LiquidCrystal_PCF8574\\src",
                 "${workspaceFolder}",
                 "C:\\Users\\SJ\\AppData\\Local\\Arduino15\\packages\\AZ3166\\tools\\**",
                 "C:\\Users\\SJ\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.3\\**",
                 "C:\\Users\\SJ\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.5\\**",
-                "D:\\WorkFolder\\Hardware\\aziot\\SDK_Demo\\include\\**"
+                "D:\\WorkFolder\\Hardware\\aziot\\SDK_Demo\\include\\**",
+                "C:\\Users\\SJ\\Documents\\Arduino\\libraries\\**"
             ],
             "forcedInclude": [
-                "C:\\Users\\SJ\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.3\\cores\\arduino\\Arduino.h",
                 "C:\\Users\\SJ\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.5\\cores\\arduino\\Arduino.h",
-                "D:\\WorkFolder\\Hardware\\aziot\\SDK_Demo\\include\\DHT.h"
+                "D:\\WorkFolder\\Hardware\\aziot\\SDK_Demo\\include\\DHT.h",
+                "C:\\Users\\SJ\\Documents\\Arduino\\libraries\\hd44780\\hd44780.h"
             ],
             "intelliSenseMode": "clang-x64",
             "cStandard": "c11",
